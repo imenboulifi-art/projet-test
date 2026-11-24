@@ -1,7 +1,7 @@
 import "./App.css";
-import Header from "./compontments/header/header";
-import Destination from "./compontments/destination/destination";
-import Footer from "./compontments/footer/footer";
+import Header from "./compontments/Header/Header";
+import Destination from "./compontments/Destination/Destination";
+import Footer from "./compontments/Footer/Footer";
 import Login from "./compontments/Login/Login";
 import Rome from "./assets/Rome.jpg";
 import Santorini from "./assets/Santorini.jpg";

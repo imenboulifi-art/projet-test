@@ -1,9 +1,15 @@
-import bleu from "./components/bleu/bleu"
-import rouge from"./components/rouge/rouge"
-function app(){
+import "./App.css";
+import Header from"./Components/Header/Header";
+import Footer from"./Components/Footer/Footer";
+function App(){
   return(
-    <>
-    <bleu/>
-    </>
+   < div Classname="App">
+    <Header>
+    <Footer>
+
+    </Footer>
+</Header>
+</div>
   )
 }
+export default App;
