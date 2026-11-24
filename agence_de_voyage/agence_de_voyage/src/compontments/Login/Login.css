@@ -1,0 +1,61 @@
+.login-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  text-align: left;
+}
+
+.login-card h2 {
+  color: #173d55;
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.champ {
+  margin-bottom: 16px;
+}
+
+.champ label {
+  color: #173d55;
+  display: block;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.champ input {
+  border: 1px solid #c9d1d9;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 12px;
+  width: 100%;
+}
+
+.champ input:focus {
+  border-color: #0f6974;
+  outline: none;
+}
+
+.erreur {
+  color: #d10000;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.btn-inscrire {
+  background: #173d55;
+  border: none;
+  border-radius: 999px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 14px;
+  transition: background 0.3s;
+  width: 100%;
+}
+
+.btn-inscrire:hover {
+  background: #0f6974;
+}

@@ -1,0 +1,40 @@
+:root {
+  --text: #3d3a45;
+  --text-h: #173d55;
+  --bg: #fff;
+  font: 16px/1.5 system-ui, "Segoe UI", Roboto, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg);
+  margin: 0;
+}
+
+#root {
+  min-height: 100svh;
+  width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--text-h);
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+footer {
+  background: #173d55;
+  color: white;
+  padding: 24px 8%;
+  text-align: center;
+}

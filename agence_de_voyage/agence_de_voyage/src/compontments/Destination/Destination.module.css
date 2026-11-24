@@ -1,0 +1,107 @@
+.destination {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding-bottom: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.destination:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-7px);
+}
+
+.image {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.titre {
+  color: #173d55;
+  font-size: 22px;
+  margin: 18px 15px 8px;
+}
+
+.pays {
+  color: #0fb9b1;
+  font-weight: bold;
+  margin: 0 15px 10px;
+}
+
+.description {
+  line-height: 1.6;
+  margin: 10px 15px;
+}
+
+.prix {
+  color: #f49f20;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 15px;
+}
+
+.boutons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 15px 0;
+}
+
+.boutons button {
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.boutons button:hover {
+  transform: scale(1.03);
+}
+
+.btnDetails {
+  background: #173d55;
+  color: white;
+}
+
+.btnDetails:hover {
+  background: #0f6974;
+}
+
+.btnFavori {
+  background: #eef2f5;
+  color: #173d55;
+}
+
+.btnFavori:hover {
+  background: #dfe7ec;
+}
+
+.btnFavori.actif {
+  background: #e63946;
+  color: white;
+}
+
+.btnFavori.actif:hover {
+  background: #c92d39;
+}
+
+.btnReset {
+  background: transparent;
+  border: 1px solid #c9d1d9 !important;
+  color: #6b6375;
+}
+
+.btnReset:hover {
+  background: #f4f4f4;
+}
+
+.message {
+  color: #e63946;
+  font-size: 14px;
+  margin: 10px 15px 0;
+}
